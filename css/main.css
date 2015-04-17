@@ -1,0 +1,123 @@
+/*html*/
+html{
+  font-family: 'Questrial', sans-serif;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  background-color:none;
+}
+
+*,*::before, *::after{
+  box-sizing:inherit;
+}
+
+
+/*nav*/
+nav{
+  background-color:white;
+  text-align:center;
+  clear:both;
+}
+
+nav ul {
+  list-style:none;
+  margin:0em;
+  padding:0em;
+  display:inline;
+  width:100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  color:black;
+}
+
+nav a {
+  color: #fff;
+  display:inline-block;
+  margin:0em;
+  padding:2em 0.5em 2em 0.5em;
+  font-size:0.6em;
+  text-decoration:none;
+  color:black;
+}
+
+a:hover {
+  color: white;
+  background-color: #fee2a5;
+}
+
+
+/*header*/
+
+.topp {
+  background-color: #fee2a5;
+}
+
+/*.topp {
+  background-image: url("../img/checkerbanner.jpg");
+  padding-top:10%;
+  width:100%;
+}*/
+
+/*body*/
+
+body {
+  margin:0;
+  padding:0;
+}
+
+/*main*/
+.main {
+color: #512200;
+text-align: center;
+width: 95%;
+margin: 0 auto;
+padding: 0;
+}
+
+.firstimg {
+  margin: 0 auto;
+  padding: 0;
+}
+
+/*h1*/
+h1 {
+  padding:0;
+  margin:0;
+}
+
+/*h2*/
+h2 {
+  padding:0;
+  margin:0;
+}
+/*menu*/
+
+/*breakfast*/
+
+/*lunch*/
+
+/*location*/
+
+/*contact us*/
+
+/*fist img*/
+.firstimg {
+  padding:0;
+  margin:0;
+  width:200%;
+}
+
+figure {
+  padding:0;
+  margin:0;
+}
+
+div {
+  padding:0;
+  margin:0;
+}
+
+.main {
+  margin:0;
+  padding:0;
+}
