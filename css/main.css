@@ -18,6 +18,18 @@ html{
   width:100%;
 }
 
+/*h1*/
+h1 {
+  padding:0;
+  margin:0;
+}
+
+/*body*/
+body {
+  margin:0;
+  padding:0;
+}
+
 /*-----------------nav*/
 nav{
   background-color:white;
@@ -34,6 +46,7 @@ nav ul {
   box-sizing: border-box;
   overflow: hidden;
   color:black;
+  width: 100%;
 }
 
 nav a {
@@ -41,7 +54,7 @@ nav a {
   display:inline-block;
   margin:0em;
   padding:2em 0.5em 2em 0.5em;
-  font-size:1.5rem;
+  font-size:0.5em;
   text-decoration:none;
   color:black;
 }
@@ -53,11 +66,24 @@ a:hover {
 
 /*-------------main*/
 
-.firstimg {
+/*.firstimg {
   overflow:hidden;
   padding:0;
   margin:0;
+  width:200%;
+}*/
+
+main {
+  margin:0;
+  padding:0;
+}
+
+.br {
+  margin:0;
+  padding:0;
   width:100%;
+  position: relative;
+  overflow:hidden;
 }
 
 .breakfast {
@@ -93,44 +119,49 @@ a:hover {
   bottom:4rem;
 }
 
-.breakfastfig1 {
-  position: relative;
-  top: 4rem;
-  font-size: 1.3em;
+.menu {
+  padding:0;
+  margin:0;
+}
+
+/*br menu*/
+
+.brmenu {
+  margin:0;
+  padding:0;
+  position:relative;
 }
 
 .breakfast1 {
   width:50%;
-  margin: 2em 1em 0.3em 1em;
+  margin: 0.3em 0.3em 0.3em 0.3em;
   float:left;
   clear: both;
   font-size: 2em;
 }
 
+.breakfastfig1 {
+  position: relative;
+  padding-top: 0.3em;
+  margin:0;
+  font-size: 1.3em;
+}
+
 .breakp {
   color:grey;
   position: relative;
-  top: 3rem;
   font-size: 1rem;
-  margin-top:0.5rem;
+  margin:1em 0em 0em 0em;
 }
 
+/*cheese*/
 
 .secondimg {
   width:50%;
-  float: left;
-  clear:both;
-  margin: 0.3em 1em 2em 1em;
-}
-
-
-
-
-
-/*body*/
-body {
-  margin:0;
-  padding:0;
+  margin: 0.3em 0.3em 0.3em 0.3em;
+  float:left;
+  clear: both;
+  font-size: 2em;
 }
 
 
@@ -145,11 +176,13 @@ body {
 
 
 
-/*h1*/
-h1 {
-  padding:0;
-  margin:0;
-}
+
+
+
+
+
+
+
 
 /*h2*/
 /*h2 {
@@ -160,30 +193,6 @@ h1 {
   font-size:2rem;
 }*/
 
-
-
-
-
-
-
-/*breakfast*/
-
-/*lunch*/
-
-/*location*/
-
-/*contact us*/
-
-/*fist img*/
-
-
-
-
-
-.main {
-  margin:0;
-  padding:0;
-}
 
 /*figcaption {
 	display: block;
