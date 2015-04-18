@@ -83,18 +83,21 @@ a:hover {
 
 /*menu*/
 
-
-/*body*/
-body {
+.menu h2 {
+  padding-top:1rem;
+  padding-bottom:1rem;
   margin:0;
-  padding:0;
+  background-color: #fee2a5;
+  text-align:center;
+  font-size:2rem;
+  bottom:4rem;
 }
 
-.div {
-  margin:0;
-  padding: 0
+.breakfastfig1 {
+  position: relative;
+  top: 4rem;
+  font-size: 1.3em;
 }
-
 
 .breakfast1 {
   width:50%;
@@ -112,11 +115,6 @@ body {
   margin-top:0.5rem;
 }
 
-.breakfastfig {
-  position: relative;
-  top: 4rem;
-  font-size: 1.3em;
-}
 
 .secondimg {
   width:50%;
@@ -125,11 +123,26 @@ body {
   margin: 0.3em 1em 2em 1em;
 }
 
-.greybannerlg {
-  background-image: url("../img/greybannerlarge.jpg");
-  background-repeat:none;
-  width:100%;
+
+
+
+
+/*body*/
+body {
+  margin:0;
+  padding:0;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*h1*/
@@ -147,15 +160,7 @@ h1 {
   font-size:2rem;
 }*/
 
-.menu h2 {
-  padding-top:1rem;
-  padding-bottom:1rem;
-  margin:0;
-  background-color: #fee2a5;
-  text-align:center;
-  font-size:2rem;
-  bottom:4rem;
-}
+
 
 
 
@@ -173,15 +178,7 @@ h1 {
 
 
 
-figure {
-  padding:0;
-  margin:0;
-}
 
-div {
-  padding:0;
-  margin:0;
-}
 
 .main {
   margin:0;
