@@ -183,7 +183,7 @@ main {
 
 .cheesburger1 {
   position: relative;
-  margin:2em 0em 0em 0em;
+  margin:1.3em 0em 0em 0em;
   font-size: 1.3em;
 }
 
@@ -191,7 +191,7 @@ main {
   color:grey;
   position: relative;
   font-size: 1.1rem;
-  margin:0.3em 0.3em 0.3em 0em;
+  margin:0.3em 0.3em 0.1em 0em;
 }
 
 .cheeseprice {
@@ -224,6 +224,12 @@ main {
   float: left;
 }
 
+.tests {
+  margin: 0em 0.3em 0em 0.3em;
+  color: grey;
+  clear: both;
+}
+
 .testp {
   margin:0em 0.3em 0.5em 0.3em;
   float:right;
@@ -231,10 +237,18 @@ main {
   bottom: 20px;
 }
 
+
+
 .test2 {
-  margin:0.5em 0.3em 1em 0.3em;
-  padding:0em;
+  margin:0.5em 0.3em 0em 0.3em;
+  color: black;
   clear:both;
+}
+
+.testwest {
+  margin: 0em 0.3em 0em 0.3em;
+  color: grey;
+  clear: both;
 }
 
 .test2p {
@@ -244,17 +258,25 @@ main {
   bottom: 20px;
 }
 
+
+
 .test3 {
-  margin:0.5em 0.3em 0.5em 0.3em;
+  margin:0.5em 0.3em 0em 0.3em;
   padding:0em;
   clear: both;
 }
 
+.testlumber {
+  margin: 0em 0.3em 0em 0.3em;
+  color: grey;
+  clear: both;
+}
+
 .test3p {
-  margin:0em 0.3em 0.5em 0.3em;
+  margin:0em 0.3em 0em 0.3em;
   float:right;
   position: relative;
-  bottom: 10px;
+  bottom: 20px;
 }
 
 /*lunch*/
@@ -285,37 +307,59 @@ main {
   float: left;
 }
 
-.yummy1 {
-  margin:0em 0.3em 0.5em 0.3em;
-  float:right;
-  position: relative;
-  bottom: 0px;
+.yummywith {
+  margin: 0em 0.3em 0em 0.3em;
+  color: grey;
+  clear: both;
 }
 
+.yummy1 {
+  margin:0em 0.3em 0em 0.3em;
+  float:right;
+  position: relative;
+  bottom: 20px;
+}
+
+
+
 .chicken {
-  margin:0.5em 0.3em 1em 0.3em;
+  margin:0.5em 0.3em 0em 0.3em;
   padding:0em;
   clear:both;
 }
 
-.chicken1 {
-  margin:0em 0.3em 0.3em 0em;
-  float:right;
-  position: relative;
-  bottom: 25px;
+.chickenwith {
+  margin: 0em 0.3em 0em 0.3em;
+  color: grey;
+  clear: both;
 }
 
+.chicken1 {
+  margin:0em 0.3em 0em 0em;
+  float:right;
+  position: relative;
+  bottom: 20px;
+}
+
+
+
 .smoked {
-  margin:0em 0.3em 0.5em 0.3em;
+  margin:0em 0.3em 0em 0.3em;
   padding:0em;
   clear: both;
 }
 
+.smokedwith {
+  margin: 0em 0.3em 0em 0.3em;
+  color: grey;
+  clear: both;
+}
+
 .smoked1 {
-  margin:0em 0.3em 0.5em 0.3em;
+  margin:0em 0.3em 0em 0.3em;
   float:right;
   position: relative;
-  bottom: 10px;
+  bottom: 20px;
 }
 
 /*Location*/
@@ -335,12 +379,17 @@ main {
   margin: 0em 0.3em 0em 0.3em;
   text-align: center;
 }
+
+.locationmapimg {
+  width: 100%;
+  margin: 0em 0em 0.3em 0em;
+}
 /*Contact*/
 
 .contactus h2 {
   padding-top:1rem;
   padding-bottom:1rem;
-  margin:0.3em 0em 0.3em 0em;
+  margin:0.3em 0em 0.5em 0em;
   background-color: #fee2a5;
   text-align:center;
   font-size:2rem;
@@ -357,7 +406,7 @@ main {
 .hours h2 {
   padding-top:1rem;
   padding-bottom:1rem;
-  margin:0.3em 0em 0.3em 0em;
+  margin:0.3em 0em 0.5em 0em;
   background-color: lightgrey;
   text-align:center;
   font-size:2rem;
