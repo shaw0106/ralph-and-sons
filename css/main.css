@@ -225,94 +225,85 @@ main {
   clear:both;
 }
 
+.test2p {
+  margin:0em 0.3em 0.3em 0.3em;
+  float:right;
+  position: relative;
+  bottom: 20px;
+}
+
 .test3 {
   margin:0.5em 0.3em 0.5em 0.3em;
   padding:0em;
+  clear: both;
 }
 
-.french {
+.test3p {
+  margin:0em 0.3em 0.5em 0.3em;
+  float:right;
   position: relative;
-  display:block;
-  float:left;
-  margin:0.6em 2em 0em 0em;
-  font-size: 1.3em;
+  bottom: 10px;
 }
-
-.french1 {
-  color:grey;
-  position: relative;
-  font-size: 1rem;
-  margin: 1.2em 0em 0em 0em;
-
-}
-
-.west {
-  position: relative;
-  margin:0.6em 0em 0em 0em;
-  font-size: 1.3em;
-}
-
-.west1 {
-  color:grey;
-  position: relative;
-  font-size: 1rem;
-  margin:0em;
-}
-
-.lumberjack {
-  position: relative;
-  margin:0.6em 0em 0em 0em;
-  font-size: 1.3em;
-}
-
-.lumberjack1 {
-  color:grey;
-  position: relative;
-  font-size: 1rem;
-  margin:0em;
-}
-
 
 /*lunch*/
 
 .lunch h2 {
   padding-top:1rem;
   padding-bottom:1rem;
-  margin:0.3em 0em 0.3em 0em;
+  margin: 0em;
   background-color: #fee2a5;
   text-align:center;
   font-size:2rem;
   bottom:4rem;
+  clear: both;
+}
+
+.lunch {
+  margin:0;
+  padding:0em;
+}
+
+.lunch p {
+  font-size: 1.3em
 }
 
 .yummy {
-  position: relative;
-  margin:0.6em 0em 0em 0em;
-  font-size: 1.3em;
+  margin:0.5em 0.3em 0em 0.3em;
+  padding:0;
+  float: left;
 }
 
 .yummy1 {
-
+  margin:0em 0.3em 0.5em 0.3em;
+  float:right;
+  position: relative;
+  bottom: 0px;
 }
 
 .chicken {
-  position: relative;
-  margin:0.6em 0em 0em 0em;
-  font-size: 1.3em;
+  margin:0.5em 0.3em 1em 0.3em;
+  padding:0em;
+  clear:both;
 }
 
 .chicken1 {
-
+  margin:0em 0.3em 0.3em 0em;
+  float:right;
+  position: relative;
+  bottom: 25px;
 }
 
 .smoked {
-  position: relative;
-  margin:0.6em 0em 0em 0em;
-  font-size: 1.3em;
+  margin:0em 0.3em 0.5em 0.3em;
+  padding:0em;
+  clear: both;
 }
 
 .smoked1 {
-
+  margin:0em 0.3em 0.5em 0.3em;
+  float:right;
+  position: relative;
+  bottom: 10px;
 }
 
 /*Location*/
@@ -320,13 +311,18 @@ main {
 .location h2 {
   padding-top:1rem;
   padding-bottom:1rem;
-  margin:0.3em 0em 0.3em 0em;
+  margin: 0em;
   background-color: lightgrey;
   text-align:center;
   font-size:2rem;
-  bottom:4rem;
+  clear: both;
 }
 
+.location p {
+  font-size: 1.3em;
+  margin: 0em 0.3em 0em 0.3em;
+  text-align: center;
+}
 /*Contact*/
 
 .contactus h2 {
@@ -336,7 +332,12 @@ main {
   background-color: #fee2a5;
   text-align:center;
   font-size:2rem;
-  bottom:4rem;
+}
+
+.contactus p {
+  font-size: 1.3em;
+  margin: 0em 0.3em 0em 0.3em;
+  text-align: center;
 }
 
 /*hours*/
@@ -349,4 +350,19 @@ main {
   text-align:center;
   font-size:2rem;
   bottom:4rem;
+}
+
+.hours p {
+  font-size: 1.3em;
+  margin: 0em 0.3em 1em 0.3em;
+  text-align: center;
+}
+
+/*-----------footer*/
+
+footer {
+  background-image: url("../img/checkerbanner.jpg");
+  background-image:repeat;
+  padding-top:4rem;
+  width:100%;
 }
