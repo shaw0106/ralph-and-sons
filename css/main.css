@@ -134,7 +134,7 @@ main {
 
 .breakfast1 {
   width:50%;
-  margin: 0.3em 0.3em 0.3em 0.3em;
+  margin: 0.3em 0.3em 0em 0.3em;
   float:left;
   clear: both;
   font-size: 2em;
@@ -156,56 +156,90 @@ main {
 
 /*cheese*/
 
+.cheese {
+  margin-top:0em;
+  padding:0;
+  position:relative;
+}
+
 .secondimg {
   width:50%;
-  margin: 0.3em 0.3em 0.3em 0.3em;
+  margin: 0em 0.3em 0.3em 0.3em;
   float:left;
   clear: both;
   font-size: 2em;
 }
 
+.cheesburger1 {
+  position: relative;
+  margin:0.6em 0em 0em 0em;
+  font-size: 1.3em;
+}
+
+.cheesep {
+  color:grey;
+  position: relative;
+  font-size: 1rem;
+  margin:1em 0em 0em 0em;
+}
+
+/*breakfast*/
+
+.bf h2 {
+  padding-top:1rem;
+  padding-bottom:1rem;
+  margin:0.3em 0em 0.3em 0em;
+  background-color: lightgrey;
+  text-align:center;
+  font-size:2rem;
+  bottom:4rem;
+}
 
 
+/*lunch*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*h2*/
-/*h2 {
-  padding:0;
-  margin:0;
+.lunch h2 {
+  padding-top:1rem;
+  padding-bottom:1rem;
+  margin:0.3em 0em 0.3em 0em;
   background-color: #fee2a5;
   text-align:center;
   font-size:2rem;
-}*/
-
-
-/*figcaption {
-	display: block;
-	position: absolute;
-	width: 60%;
-  bottom: 1em;
-	left: 25%;
-	text-align: center;
-	color: #fff;
-	font-size: 1em;
-	padding: 0.5em;
+  bottom:4rem;
 }
 
-/*.greybanner {
-  position:relative;
-}*/
+/*Location*/
+
+.location h2 {
+  padding-top:1rem;
+  padding-bottom:1rem;
+  margin:0.3em 0em 0.3em 0em;
+  background-color: lightgrey;
+  text-align:center;
+  font-size:2rem;
+  bottom:4rem;
+}
+
+/*Contact*/
+
+.contactus h2 {
+  padding-top:1rem;
+  padding-bottom:1rem;
+  margin:0.3em 0em 0.3em 0em;
+  background-color: #fee2a5;
+  text-align:center;
+  font-size:2rem;
+  bottom:4rem;
+}
+
+/*hours*/
+
+.hours h2 {
+  padding-top:1rem;
+  padding-bottom:1rem;
+  margin:0.3em 0em 0.3em 0em;
+  background-color: lightgrey;
+  text-align:center;
+  font-size:2rem;
+  bottom:4rem;
+}
