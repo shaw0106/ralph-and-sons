@@ -18,7 +18,7 @@ html{
   width:100%;
 }
 
-/*nav*/
+/*-----------------nav*/
 nav{
   background-color:white;
   text-align:center;
@@ -51,37 +51,25 @@ a:hover {
   background-color: #fee2a5;
 }
 
-/*header*/
+/*-------------main*/
 
-/*main*/
-.main {
-  color: #512200;
-  text-align: center;
-  width: 100%;
-  height: 50%;
-  margin: 0 auto;
-  padding: 0;
-}
-
-.main figcaption {
-  position:relative;
+.firstimg {
+  overflow:hidden;
   padding:0;
   margin:0;
+  width:100%;
+}
+
+.breakfast {
+  width:100%
+}
+
+.break {
+  position: relative;
+  bottom:40px;
   text-align:center;
-  font-size:2rem;
-  display:block;
-  color:white;
-  bottom: 1.5em;
-}
-
-/*grey*/
-.grey {
-  background-image: url("../img/greybannerlarge.jpg");
-  background-repeat: no-repeat;
-  background-position:left, right;
-  padding:0;
-  margin:0;
-  bottom: 1.5em;
+  font-size:1.5rem;
+  color: white;
 }
 
 .greyfig {
@@ -91,6 +79,10 @@ a:hover {
   padding-bottom:2em;
   margin:0;
 }
+
+
+/*menu*/
+
 
 /*body*/
 body {
@@ -104,9 +96,33 @@ body {
 }
 
 
-.breakfast {
-  text-align:center;
-  width:120%;
+.breakfast1 {
+  width:50%;
+  margin: 2em 1em 0.3em 1em;
+  float:left;
+  clear: both;
+  font-size: 2em;
+}
+
+.breakp {
+  color:grey;
+  position: relative;
+  top: 3rem;
+  font-size: 1rem;
+  margin-top:0.5rem;
+}
+
+.breakfastfig {
+  position: relative;
+  top: 4rem;
+  font-size: 1.3em;
+}
+
+.secondimg {
+  width:50%;
+  float: left;
+  clear:both;
+  margin: 0.3em 1em 2em 1em;
 }
 
 .greybannerlg {
@@ -141,15 +157,9 @@ h1 {
   bottom:4rem;
 }
 
-.break {
-  position: relative;
-  bottom:40px;
-  text-align:center;
-  font-size:1.5rem;
-  color: white;
-}
 
-/*menu*/
+
+
 
 /*breakfast*/
 
@@ -160,12 +170,8 @@ h1 {
 /*contact us*/
 
 /*fist img*/
-.firstimg {
-  overflow:hidden;
-  padding:0;
-  margin:0;
-  width:200%;
-}
+
+
 
 figure {
   padding:0;
