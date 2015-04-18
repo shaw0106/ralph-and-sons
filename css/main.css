@@ -31,30 +31,101 @@ body {
 }
 
 /*-----------------nav*/
-nav{
-  background-color:white;
-  text-align:center;
-  clear:both;
+
+/nav {
+    width: 100%;
+    background: #f0f0f0;
+    border-right: none;
+}
+
+nav ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+    width: 25%;
+    color: grey;
+    font-size: 1em;
+}
+
+nav ul li:first-child {
+    border-left: none;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #616161;
+    padding: 10px 0;
+}
+
+/*nav {
+  background-color: #fcefd3;
+  width: 100%;
+  border-right: none;
 }
 
 nav ul {
   list-style:none;
-  margin:0em;
-  padding:0em;
+  width: 800px;
   display:inline;
-  width:100%;
   box-sizing: border-box;
   overflow: hidden;
-  color:black;
-  width: 100%;
+  color: black;
+  font-size: 0.5em;
+  padding:0;
+  text-align:center;
+  margin:0;
+  overflow: hidden;
+}
+
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+    width: calc(100% / 4);
+
+  }
+
+nav ul li:first-child {
+      border-left: none;
+  }
+
+nav ul li a {
+      display: block;
+      text-decoration: none;
+      color: white;
+      padding: 10px 0;
+  }
+
+/*nav ul {
+  list-style:none;
+  width: 800px;
+  display:inline;
+  box-sizing: border-box;
+  overflow: hidden;
+  color: black;
+  font-size: 0.5em;
+  padding:0;
+  text-align:center;
+  margin:0;
+}
+
+nav li {
+  float:left;
+  width:100%;
 }
 
 nav a {
   color: #fff;
-  display:inline-block;
-  margin:0em;
-  padding:2em 0.5em 2em 0.5em;
-  font-size:0.5em;
+  display:inline;
   text-decoration:none;
   color:black;
 }
@@ -62,7 +133,7 @@ nav a {
 a:hover {
   color: white;
   background-color: #fee2a5;
-}
+}*/
 
 /*-------------main*/
 
@@ -101,9 +172,9 @@ main {
 .greyfig {
   position:relative;
   text-align:center;
-  font-size:1.0rem;
+  font-size:1.25rem;
   padding-bottom:2em;
-  margin:0;
+  margin:0em 1em 0em 1em;
 }
 
 
@@ -195,6 +266,48 @@ main {
   bottom:4rem;
 }
 
+.french {
+  position: relative;
+  display:block;
+  float:left;
+  margin:0.6em 2em 0em 0em;
+  font-size: 1.3em;
+}
+
+.french1 {
+  color:grey;
+  position: relative;
+  font-size: 1rem;
+  margin: 1.2em 0em 0em 0em;
+
+}
+
+.west {
+  position: relative;
+  margin:0.6em 0em 0em 0em;
+  font-size: 1.3em;
+}
+
+.west1 {
+  color:grey;
+  position: relative;
+  font-size: 1rem;
+  margin:0em;
+}
+
+.lumberjack {
+  position: relative;
+  margin:0.6em 0em 0em 0em;
+  font-size: 1.3em;
+}
+
+.lumberjack1 {
+  color:grey;
+  position: relative;
+  font-size: 1rem;
+  margin:0em;
+}
+
 
 /*lunch*/
 
@@ -206,6 +319,36 @@ main {
   text-align:center;
   font-size:2rem;
   bottom:4rem;
+}
+
+.yummy {
+  position: relative;
+  margin:0.6em 0em 0em 0em;
+  font-size: 1.3em;
+}
+
+.yummy1 {
+
+}
+
+.chicken {
+  position: relative;
+  margin:0.6em 0em 0em 0em;
+  font-size: 1.3em;
+}
+
+.chicken1 {
+
+}
+
+.smoked {
+  position: relative;
+  margin:0.6em 0em 0em 0em;
+  font-size: 1.3em;
+}
+
+.smoked1 {
+
 }
 
 /*Location*/
