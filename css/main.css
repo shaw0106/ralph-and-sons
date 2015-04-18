@@ -14,7 +14,7 @@ html{
 .topp {
   background-image: url("../img/checkerbanner.jpg");
   background-image:repeat;
-  padding-top:7rem;
+  padding-top:4rem;
   width:100%;
 }
 
@@ -97,7 +97,7 @@ main {
 
 .break {
   position: relative;
-  bottom:40px;
+  bottom:35px;
   text-align:center;
   font-size:1.5rem;
   color: white;
@@ -107,10 +107,13 @@ main {
   position:relative;
   text-align:center;
   font-size:1.25rem;
-  padding-bottom:2em;
-  margin:0em 1em 0em 1em;
+  padding-bottom:0.3em;
+  margin:-1em 1em 0em 1em;
 }
 
+.breakgroup {
+  margin:0;
+}
 
 /*menu*/
 
@@ -156,7 +159,7 @@ main {
   color:grey;
   position: relative;
   font-size: 1rem;
-  margin:1em 0em 0em 0em;
+  margin:0.3em 0.3em 0em 0em;
 }
 
 /*cheese*/
@@ -171,7 +174,6 @@ main {
   width:50%;
   margin: 0em 0.3em 0.3em 0.3em;
   float:left;
-  clear: both;
   font-size: 2em;
 }
 
@@ -185,19 +187,47 @@ main {
   color:grey;
   position: relative;
   font-size: 1rem;
-  margin:1em 0em 0em 0em;
+  margin:0.3em 0.3em 0.3em 0em;
 }
 
 /*breakfast*/
-
 .bf h2 {
   padding-top:1rem;
   padding-bottom:1rem;
-  margin:0.3em 0em 0.3em 0em;
+  margin: 0.3em 0em 0em 0em;
   background-color: lightgrey;
   text-align:center;
   font-size:2rem;
   bottom:4rem;
+  clear:both;
+}
+
+.bf p {
+  font-size: 1.3em
+}
+
+.test {
+  margin:0.5em 0.3em 0em 0.3em;
+  padding:0;
+  float: left;
+}
+
+.testp {
+  margin:0em 0.3em 0.5em 0.3em;
+  float:right;
+  position: relative;
+  bottom: 20px;
+}
+
+.test2 {
+  margin:0.5em 0.3em 1em 0.3em;
+  padding:0em;
+  clear:both;
+}
+
+.test3 {
+  margin:0.5em 0.3em 0.5em 0.3em;
+  padding:0em;
 }
 
 .french {
