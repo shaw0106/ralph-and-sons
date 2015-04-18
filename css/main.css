@@ -50,7 +50,7 @@ nav ul li {
     text-align: center;
     width: 25%;
     color: grey;
-    font-size: 1em;
+    font-size: 0.4em;
 }
 
 nav ul li:first-child {
@@ -64,76 +64,10 @@ nav ul li a {
     padding: 10px 0;
 }
 
-/*nav {
-  background-color: #fcefd3;
-  width: 100%;
-  border-right: none;
-}
-
-nav ul {
-  list-style:none;
-  width: 800px;
-  display:inline;
-  box-sizing: border-box;
-  overflow: hidden;
-  color: black;
-  font-size: 0.5em;
-  padding:0;
-  text-align:center;
-  margin:0;
-  overflow: hidden;
-}
-
-}
-
-nav ul li {
-    list-style: none;
-    float: left;
-    text-align: center;
-    width: calc(100% / 4);
-
-  }
-
-nav ul li:first-child {
-      border-left: none;
-  }
-
-nav ul li a {
-      display: block;
-      text-decoration: none;
-      color: white;
-      padding: 10px 0;
-  }
-
-/*nav ul {
-  list-style:none;
-  width: 800px;
-  display:inline;
-  box-sizing: border-box;
-  overflow: hidden;
-  color: black;
-  font-size: 0.5em;
-  padding:0;
-  text-align:center;
-  margin:0;
-}
-
-nav li {
-  float:left;
-  width:100%;
-}
-
-nav a {
-  color: #fff;
-  display:inline;
-  text-decoration:none;
-  color:black;
-}
-
 a:hover {
   color: white;
   background-color: #fee2a5;
-}*/
+}
 
 /*-------------main*/
 
