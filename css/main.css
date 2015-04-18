@@ -4,7 +4,6 @@ html{
   margin:0;
   padding:0;
   box-sizing:border-box;
-  background-color:none;
 }
 
 *,*::before, *::after{
@@ -13,7 +12,6 @@ html{
 
 .topp {
   background-image: url("../img/checkerbanner.jpg");
-  background-image:repeat;
   padding-top:4rem;
   width:100%;
 }
@@ -32,10 +30,8 @@ body {
 
 /*-----------------nav*/
 
-/nav {
+nav {
     width: 100%;
-    background: #f0f0f0;
-    border-right: none;
 }
 
 nav ul {
@@ -142,7 +138,7 @@ main {
 
 .breakfast1 {
   width:50%;
-  margin: 0.3em 0.3em 0em 0.3em;
+  margin: 0.3em 0.3em 0.3em 0.3em;
   float:left;
   clear: both;
   font-size: 2em;
@@ -158,8 +154,16 @@ main {
 .breakp {
   color:grey;
   position: relative;
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin:0.3em 0.3em 0em 0em;
+}
+
+.breakprice {
+  color: black;
+  float: right;
+  margin: 0;
+  font-size: 1.1rem;
+
 }
 
 /*cheese*/
@@ -179,15 +183,23 @@ main {
 
 .cheesburger1 {
   position: relative;
-  margin:0.6em 0em 0em 0em;
+  margin:2em 0em 0em 0em;
   font-size: 1.3em;
 }
 
 .cheesep {
   color:grey;
   position: relative;
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin:0.3em 0.3em 0.3em 0em;
+}
+
+.cheeseprice {
+  color: black;
+  float: right;
+  margin:0;
+  font-size: 1.1rem;
+
 }
 
 /*breakfast*/
@@ -362,7 +374,6 @@ main {
 
 footer {
   background-image: url("../img/checkerbanner.jpg");
-  background-image:repeat;
   padding-top:4rem;
   width:100%;
 }
