@@ -97,6 +97,7 @@ main {
   text-align:center;
   font-size:1.5rem;
   color: white;
+  margin: 0em 0.3em 0.5em 0.3em;
 }
 
 .greyfig {
@@ -104,7 +105,7 @@ main {
   text-align:center;
   font-size:1.25rem;
   padding-bottom:0.3em;
-  margin:-1em 1em 0em 1em;
+  margin:-1.5em 1em 0.3em 1em;
 }
 
 .breakgroup {
@@ -376,20 +377,20 @@ main {
 
 .location p {
   font-size: 1.3em;
-  margin: 0em 0.3em 0em 0.3em;
+  margin: 0.5em 0.3em 0.5em 0.3em;
   text-align: center;
 }
 
 .locationmapimg {
   width: 100%;
-  margin: 0em 0em 0.3em 0em;
+  margin: 0em;
 }
 /*Contact*/
 
 .contactus h2 {
   padding-top:1rem;
   padding-bottom:1rem;
-  margin:0.3em 0em 0.5em 0em;
+  margin:0em;
   background-color: #fee2a5;
   text-align:center;
   font-size:2rem;
@@ -397,7 +398,7 @@ main {
 
 .contactus p {
   font-size: 1.3em;
-  margin: 0em 0.3em 0em 0.3em;
+  margin: 0.5em 0em 0.5em 0em;
   text-align: center;
 }
 
@@ -406,7 +407,7 @@ main {
 .hours h2 {
   padding-top:1rem;
   padding-bottom:1rem;
-  margin:0.3em 0em 0.5em 0em;
+  margin:0em;
   background-color: lightgrey;
   text-align:center;
   font-size:2rem;
@@ -415,7 +416,7 @@ main {
 
 .hours p {
   font-size: 1.3em;
-  margin: 0em 0.3em 1em 0.3em;
+  margin: 0.5em 0.3em 0.5em 0.3em;
   text-align: center;
 }
 
@@ -425,4 +426,5 @@ footer {
   background-image: url("../img/checkerbanner.jpg");
   padding-top:4rem;
   width:100%;
+  margin: 0.5em 0em 0em 0em;
 }
