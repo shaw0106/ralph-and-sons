@@ -35,7 +35,7 @@ body {
   padding:0;
 }
 
-/*-----------------nav*/
+/*----------nav*/
 
 nav {
     width: 100%;
@@ -72,6 +72,8 @@ a:hover {
   color: white;
   background-color: #fee2a5;
 }
+
+
 
 /*-------------main*/
 
