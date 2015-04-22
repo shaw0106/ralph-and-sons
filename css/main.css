@@ -4,6 +4,7 @@ html{
   font-family: 'Questrial', sans-serif;
   margin:0;
   padding:0;
+  box-sizing:border-box;
 }
 
 *,*::before, *::after{
@@ -12,10 +13,10 @@ html{
 
 .topp {
   background-image: url("../img/checkerbanner.jpg");
-  padding-top:30%;
+  padding-top:4rem;
   width:100%;
   margin: 0em;
-  position: absolute;
+  position: relative;
 }
 
 .topp h1 {
@@ -25,11 +26,10 @@ html{
 
 .logo {
   float: left;
-  clear: both;
   width:30%;
   padding: 0em;
   margin: 0em;
-  bottom: 70px;
+  bottom: -15px;
   position: absolute;
 }
 
@@ -114,7 +114,7 @@ main {
   text-align:center;
   font-size:1.25rem;
   padding-bottom:0.3em;
-  margin:-1.25em 0.3em 1em 0.3em;
+  margin: -1.20em 0.3em 0.75em 0.3em;
 }
 
 /*menu*/
@@ -421,7 +421,7 @@ main {
 
 .hours p {
   font-size: 1.3em;
-  margin: 1em 0.3em 2em 0.3em;
+  margin: 1em 0.3em 1em 0.3em;
   text-align: center;
 }
 
@@ -432,8 +432,8 @@ main {
   width: 50%;
   padding: 0em;
   margin: 0em;
-  position: absolute;
-  bottom: 125px;
+  position: relative;
+  bottom: 10px;
 }
 
 footer h1{
@@ -441,4 +441,5 @@ footer h1{
   padding-top:8rem;
   width:100%;
   margin: 0.5em 0em 0em 0em;
+  position: absolute;
 }
