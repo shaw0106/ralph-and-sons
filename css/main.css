@@ -27,11 +27,6 @@ html{
   position: relative;
 }
 
-/*h1*/
-h1 {
-  padding:0;
-  margin:0;
-}
 
 /*body*/
 body {
@@ -151,7 +146,7 @@ main {
 }
 
 .breakfast1 {
-  width:50%;
+  width:40%;
   margin: 0.3em 0.3em 0.3em 0.3em;
   float:left;
   clear: both;
@@ -189,7 +184,7 @@ main {
 }
 
 .secondimg {
-  width:50%;
+  width:40%;
   margin: 0em 0.3em 0.3em 0.3em;
   float:left;
   font-size: 2em;
@@ -211,7 +206,7 @@ main {
 .cheeseprice {
   color: black;
   float: right;
-  margin:0;
+  margin:0em 0.3em 1em 0em;
   font-size: 1.1rem;
 
 }
