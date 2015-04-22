@@ -129,10 +129,10 @@ main {
 .menu h2 {
   padding-top:1rem;
   padding-bottom:1rem;
-  margin:0;
+  margin:0em 0em 0.5em 0em;
   background-color: #fee2a5;
   text-align:center;
-  font-size:2rem;
+  font-size:2.5rem;
   bottom:4rem;
 }
 
@@ -399,7 +399,7 @@ main {
 }
 /*Contact*/
 
-.contactus h2 {
+.contact h2 {
   padding-top:1rem;
   padding-bottom:1rem;
   margin:0em;
@@ -408,7 +408,7 @@ main {
   font-size:2rem;
 }
 
-.contactus p {
+.contact p {
   font-size: 1.3em;
   margin: 1em 0em 1em 0em;
   text-align: center;
